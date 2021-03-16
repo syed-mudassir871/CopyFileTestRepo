@@ -1,0 +1,48 @@
+[13:54:46,037][WARNING][main][G] Ignite work directory is not provided, automatically resolved to: C:\apache-ignite\IgniteDeployment\work
+[13:54:46,432][INFO][main][IgniteKernal%Cluster] 
+
+>>>    __________  ________________  
+>>>   /  _/ ___/ |/ /  _/_  __/ __/  
+>>>  _/ // (7 7    // /  / / / _/    
+>>> /___/\___/_/|_/___/ /_/ /___/   
+>>> 
+>>> ver. 2.7.6#20190911-sha1:21f7ca41
+>>> 2019 Copyright(C) Apache Software Foundation
+>>> 
+>>> Ignite documentation: http://ignite.apache.org
+
+[13:54:46,466][INFO][main][IgniteKernal%Cluster] Config URL: n/a
+[13:54:46,513][INFO][main][IgniteKernal%Cluster] IgniteConfiguration [igniteInstanceName=Cluster, pubPoolSize=8, svcPoolSize=8, callbackPoolSize=8, stripedPoolSize=8, sysPoolSize=8, mgmtPoolSize=4, igfsPoolSize=1, dataStreamerPoolSize=8, utilityCachePoolSize=8, utilityCacheKeepAliveTime=60000, p2pPoolSize=2, qryPoolSize=8, igniteHome=C:\apache-ignite\IgniteDeployment, igniteWorkDir=C:\apache-ignite\IgniteDeployment\work, mbeanSrv=com.sun.jmx.mbeanserver.JmxMBeanServer@711f39f9, nodeId=0d4e491b-d14d-4ffc-b4b9-cfe4e859e832, marsh=BinaryMarshaller [], marshLocJobs=false, daemon=false, p2pEnabled=false, netTimeout=5000, sndRetryDelay=1000, sndRetryCnt=3, metricsHistSize=10000, metricsUpdateFreq=2000, metricsExpTime=9223372036854775807, discoSpi=TcpDiscoverySpi [addrRslvr=null, sockTimeout=5000, ackTimeout=5000, marsh=null, reconCnt=10, reconDelay=2000, maxAckTimeout=600000, forceSrvMode=false, clientReconnectDisabled=false, internalLsnr=null], segPlc=STOP, segResolveAttempts=2, waitForSegOnStart=true, allResolversPassReq=true, segChkFreq=10000, commSpi=TcpCommunicationSpi [connectGate=null, connPlc=org.apache.ignite.spi.communication.tcp.TcpCommunicationSpi$FirstConnectionPolicy@52aa2946, enableForcibleNodeKill=false, enableTroubleshootingLog=false, locAddr=null, locHost=null, locPort=47100, locPortRange=100, shmemPort=-1, directBuf=true, directSndBuf=false, idleConnTimeout=600000, connTimeout=5000, maxConnTimeout=600000, reconCnt=10, sockSndBuf=32768, sockRcvBuf=32768, msgQueueLimit=0, slowClientQueueLimit=0, nioSrvr=null, shmemSrv=null, usePairedConnections=false, connectionsPerNode=1, tcpNoDelay=true, filterReachableAddresses=false, ackSndThreshold=32, unackedMsgsBufSize=0, sockWriteTimeout=2000, boundTcpPort=-1, boundTcpShmemPort=-1, selectorsCnt=4, selectorSpins=0, addrRslvr=null, ctxInitLatch=java.util.concurrent.CountDownLatch@4de5031f[Count = 1], stopping=false], evtSpi=org.apache.ignite.spi.eventstorage.NoopEventStorageSpi@67e2d983, colSpi=NoopCollisionSpi [], deploySpi=LocalDeploymentSpi [], indexingSpi=org.apache.ignite.spi.indexing.noop.NoopIndexingSpi@29f69090, addrRslvr=null, encryptionSpi=org.apache.ignite.spi.encryption.noop.NoopEncryptionSpi@568bf312, clientMode=true, rebalanceThreadPoolSize=1, txCfg=TransactionConfiguration [txSerEnabled=false, dfltIsolation=REPEATABLE_READ, dfltConcurrency=PESSIMISTIC, dfltTxTimeout=0, txTimeoutOnPartitionMapExchange=0, pessimisticTxLogSize=0, pessimisticTxLogLinger=10000, tmLookupClsName=null, txManagerFactory=null, useJtaSync=false], cacheSanityCheckEnabled=true, discoStartupDelay=60000, deployMode=SHARED, p2pMissedCacheSize=100, locHost=null, timeSrvPortBase=31100, timeSrvPortRange=100, failureDetectionTimeout=10000, sysWorkerBlockedTimeout=null, clientFailureDetectionTimeout=30000, metricsLogFreq=60000, hadoopCfg=null, connectorCfg=ConnectorConfiguration [jettyPath=null, host=null, port=11211, noDelay=true, directBuf=false, sndBufSize=32768, rcvBufSize=32768, idleQryCurTimeout=600000, idleQryCurCheckFreq=60000, sndQueueLimit=0, selectorCnt=1, idleTimeout=7000, sslEnabled=false, sslClientAuth=false, sslCtxFactory=null, sslFactory=null, portRange=100, threadPoolSize=8, msgInterceptor=null], odbcCfg=null, warmupClos=null, atomicCfg=AtomicConfiguration [seqReserveSize=1000, cacheMode=PARTITIONED, backups=1, aff=null, grpName=null], classLdr=null, sslCtxFactory=null, platformCfg=PlatformDotNetConfiguration [binaryCfg=null], binaryCfg=null, memCfg=null, pstCfg=null, dsCfg=null, activeOnStart=true, autoActivation=true, longQryWarnTimeout=3000, sqlConnCfg=null, cliConnCfg=ClientConnectorConfiguration [host=null, port=10800, portRange=100, sockSndBufSize=0, sockRcvBufSize=0, tcpNoDelay=true, maxOpenCursorsPerConn=128, threadPoolSize=8, idleTimeout=0, jdbcEnabled=true, odbcEnabled=true, thinCliEnabled=true, sslEnabled=false, useIgniteSslCtxFactory=true, sslClientAuth=false, sslCtxFactory=null], mvccVacuumThreadCnt=2, mvccVacuumFreq=5000, authEnabled=false, failureHnd=null, commFailureRslvr=null]
+[13:54:46,515][INFO][main][IgniteKernal%Cluster] Daemon mode: off
+[13:54:46,516][INFO][main][IgniteKernal%Cluster] OS: Windows 10 10.0 amd64
+[13:54:46,516][INFO][main][IgniteKernal%Cluster] OS user: mudassir
+[13:54:46,519][INFO][main][IgniteKernal%Cluster] PID: 2420
+[13:54:46,521][INFO][main][IgniteKernal%Cluster] Language runtime: Java Platform API Specification ver. 1.8
+[13:54:46,521][INFO][main][IgniteKernal%Cluster] VM information: Java(TM) SE Runtime Environment 1.8.0_281-b09 Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 25.281-b09
+[13:54:46,523][INFO][main][IgniteKernal%Cluster] VM total memory: 0.97GB
+[13:54:46,523][INFO][main][IgniteKernal%Cluster] Remote Management [restart: off, REST: off, JMX (remote: off)]
+[13:54:46,524][INFO][main][IgniteKernal%Cluster] Logger: JavaLogger [quiet=true, config=null]
+[13:54:46,524][INFO][main][IgniteKernal%Cluster] IGNITE_HOME=C:\apache-ignite\IgniteDeployment
+[13:54:46,524][INFO][main][IgniteKernal%Cluster] VM arguments: []
+[13:54:46,568][INFO][main][IgniteKernal%Cluster] Configured caches [in 'sysMemPlc' dataRegion: ['ignite-sys-cache']]
+[13:54:46,569][WARNING][main][IgniteKernal%Cluster] Please set system property '-Djava.net.preferIPv4Stack=true' to avoid possible problems in mixed environments.
+[13:54:46,574][INFO][main][IgniteKernal%Cluster] 3-rd party licenses can be found at: C:\apache-ignite\IgniteDeployment\libs\licenses
+[13:54:46,657][WARNING][pub-#22%Cluster%][GridDiagnostic] Initial heap size is 64MB (should be no less than 512MB, use -Xms512m -Xmx512m).
+[13:54:46,661][WARNING][pub-#19%Cluster%][GridDiagnostic] This operating system has been tested less rigorously: Windows 10 10.0 amd64. Our team will appreciate the feedback if you experience any problems running ignite in this environment.
+[13:54:46,733][INFO][main][IgnitePluginProcessor] Configured plugins:
+[13:54:46,735][INFO][main][IgnitePluginProcessor]   ^-- None
+[13:54:46,736][INFO][main][IgnitePluginProcessor] 
+[13:54:46,744][INFO][main][FailureProcessor] Configured failure handler: [hnd=StopNodeOrHaltFailureHandler [tryStop=false, timeout=0, super=AbstractFailureHandler [ignoredFailureTypes=[SYSTEM_WORKER_BLOCKED, SYSTEM_CRITICAL_OPERATION_TIMEOUT]]]]
+[13:54:46,949][INFO][main][TcpCommunicationSpi] Successfully bound communication NIO server to TCP port [port=47101, locHost=0.0.0.0/0.0.0.0, selectorsCnt=4, selectorSpins=0, pairedConn=false]
+[13:54:47,083][WARNING][main][TcpCommunicationSpi] Message queue limit is set to 0 which may lead to potential OOMEs when running cache operations in FULL_ASYNC or PRIMARY_SYNC modes due to message queues growth on sender and receiver sides.
+[13:54:47,182][WARNING][main][NoopCheckpointSpi] Checkpoints are disabled (to enable configure any GridCheckpointSpi implementation)
+[13:54:47,261][WARNING][main][GridCollisionManager] Collision resolution is disabled (all jobs will be activated upon arrival).
+[13:54:47,290][INFO][main][IgniteKernal%Cluster] Security status [authentication=off, tls/ssl=off]
+[13:54:47,626][INFO][main][PartitionsEvictManager] Evict partition permits=2
+[13:54:48,103][INFO][main][ClientListenerProcessor] Client connector processor has started on TCP port 10801
+[13:54:48,141][INFO][main][GridRestProcessor] REST protocols do not start on client node. To start the protocols on client node set '-DIGNITE_REST_START_ON_CLIENT=true' system property.
+[13:54:48,249][WARNING][main][PlatformProcessorImpl] Marshaller is automatically set to o.a.i.i.binary.BinaryMarshaller (other nodes must have the same marshaller type).
+[13:54:48,463][INFO][main][IgniteKernal%Cluster] Non-loopback local IPs: 192.168.0.21, fe80:0:0:0:153b:24d3:574f:ac2e%eth3
+[13:54:48,464][INFO][main][IgniteKernal%Cluster] Enabled local MACs: 080027835105
+[13:54:48,554][WARNING][tcp-client-disco-msg-worker-#4%Cluster%][TcpDiscoverySpi] Failed to resolve address from IP finder (host is unknown): NY-OMS-U-DB01:47500
+[13:54:48,557][WARNING][tcp-client-disco-msg-worker-#4%Cluster%][TcpDiscoverySpi] Failed to connect to any address from IP finder (will retry to join topology every 2000 ms; change 'reconnectDelay' to configure the frequency of retries): [NY-OMS-U-DB01:47500]
